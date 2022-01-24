@@ -1,0 +1,233 @@
+/* Header info */
+button {
+  margin-left: 20px;
+  background-color: rgb(46, 161, 117);
+  color: white;
+  font-weight: 10px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(0, 128, 85); 
+}
+
+.nav-item {
+  color: #096880;
+  font-family: 'Playfair Display', serif;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  justify-content: center space-between;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: purple;
+  text-decoration: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease;
+}
+
+.nav_links li a:hover{
+  color: #0088a9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10% 0px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  max-width: 100%;
+  width: 250px;
+  margin-right: auto;
+}
+
+/*body info*/
+body {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.site_nav {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.site_nav a {
+  color: #4F5299;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#projects {
+  position: relative;
+}
+
+#projects h2 {
+  border: 1px;
+  border-style: solid;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#projects h3 { 
+  margin: 0 auto;
+  position: block;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 20px;
+  color: #03989E;
+}
+
+#projects p{
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.monthly #circle_logo {
+  width: 250px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#projects img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 500px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 25px;
+}
+
+#events h2 {
+  border: 1px;
+  border-style: solid;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#end_of_year iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+#steve_young h3 {
+  margin: 0 auto;
+  position: block;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 20px;
+  color: #03989E;
+}
+
+#steve_young {
+  position: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#steve_young li{
+  list-style: none;
+
+}
+.events p{
+  text-align: center;
+}
+
+#hd {
+  position: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#hd h3 {
+  margin: 0 auto;
+  position: block;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 20px;
+  color: #03989E;
+}
+
+#hustle h3 {
+  margin: 0 auto;
+  position: block;
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 20px;
+  color: #03989E;
+}
+
+#hustle {
+  position: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#hustle img {
+  width: 400px;
+}
+
+
+.photography h2 {
+  border: 1px;
+  border-style: solid;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#resume {
+  position: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#resume button {
+  padding: 20px;
+}

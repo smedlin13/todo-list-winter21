@@ -1,0 +1,256 @@
+/*Header info*/
+header button {
+  margin-left: 20px;
+  background-color: rgb(46, 161, 117);
+  color: white;
+  font-weight: 20px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+header button:hover {
+  background-color: rgb(0, 128, 85); 
+}
+
+.nav-item {
+  color: #096880;
+  font-family: 'Playfair Display', serif;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  justify-content: center space-between;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: purple;
+  text-decoration: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease;
+}
+
+.nav_links li a:hover{
+  color: #0088a9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10% 10px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  max-width: 100%;
+  width: 250px;
+  margin-right: auto;
+}
+
+/* Main page assignments*/
+h1 {
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/*Specific page assignments*/
+#inspirational_quote {
+  text-align: center;
+}
+
+#quote {
+  color: navy;
+  margin: 15px;
+  padding: 15px;
+  position: relative;
+  
+}
+
+.logo {
+  cursor: pointer;
+  max-width: 100%;
+  width: 250px;
+  margin-right: auto;
+}
+
+
+
+#selfie_photo {
+  margin: 0 auto;
+  display: block; /* margin and display centers the picture */
+  width: 380px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(500px, 668px) minmax(500px, 668px);
+  grid-template-rows: 400px 400px;
+  justify-content: center;
+} 
+
+.experience {
+  background-color: grey;
+  background-image: url(https://bikepackingwander.files.wordpress.com/2021/10/2c8c79d2-17df-4f9e-8fb5-dbc4ea7696c5_1_201_a.jpeg?resize=668%2C668);
+  padding: 100px;
+  max-width: 100%;
+  justify-self: start;
+}
+
+.experience p {
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.experience button {
+  background-color: white;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  font-weight: 20px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.experience button:hover {
+  background-color: grey;
+}
+
+.adventures {
+  background-color: grey;
+  background-image: url(https://bikepackingwander.files.wordpress.com/2021/10/c8400b5f-7ef4-41b6-832d-17cfe2e98c49_1_105_c.jpeg?resize=668%2C668);
+  font-size: 16px;
+  padding: 100px;
+  max-width: 100%;
+  justify-self: end;
+}
+
+.adventures p {
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  text-align: center;
+}
+
+.adventures button {
+  background-color: white;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  font-weight: 20px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.adventures button:hover {
+  background-color: grey;
+}
+
+.pup_life {
+  background-color: grey;
+  background-image: url(https://bikepackingwander.files.wordpress.com/2021/06/dsc_7107.jpg?resize=668%2C668);
+  font-size: 16px;
+  padding: 100px;
+  max-width: 100%;
+  justify-self: start;
+  grid-column: 1 / 2;
+}
+
+.pup_life p {
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  text-align: center;
+}
+
+.pup_life button {
+  background-color: white;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  font-weight: 20px;
+  font-family: 'Work Sans', sans-serif;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.pup_life button:hover {
+  background-color: grey;
+}
+
+.fourth_box img{
+  background-color: #737373;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  
+}
+
+
+.contact_end {
+  text-align: center;
+  justify-items: center;
+  display: relative;
+  border: none;
+}
+
+.contact_end button {
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: rgb(46, 161, 117);
+  color: white;
+  font-weight: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+

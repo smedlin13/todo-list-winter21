@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content ="Stephanie Medlin">
+  <title>Stephanie Medlin</title> 
+  <link rel="stylesheet" href="./contact.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&family=Work+Sans:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="./homepage.html" alt="homepage"><img class="logo" src="https://bikepackingwander.files.wordpress.com/2021/11/stephanie.jpg?resize=668%2C668" alt="steph_logo"></a>
+    <nav>
+      <ul class="nav_links">
+        <li><a class="nav-item" href="./background.html">Experience</a></li>
+        <li><a class="nav-item" href="./outdoors.html">Adventures</a></li>
+        <li><a class="nav-item" href="./beta.html">Pup Life</a></li>
+      </ul>
+    </nav>
+    <a class="contact" href="./contact.html"><button>Let's Chat</button></a>
+  </header>
+<div class="module">
+  <div class="module-inside">
+  <h2 id="title">Let's make something awesome! Reach out:</h2>
+<form action="some_url" method="POST"> 
+  <fieldset>
+    <legend><h4>Name</h4></legend>
+    <label for="first">First Name</label>
+    <input type="text" id="first" name="first_name" />
+    <br />
+    <label for="last">Last Name</label>
+    <input type="text" id="last" name="last_name" />
+  </fieldset>
+    <br />
+  <fieldset>  
+   <legend><h4>Contact Info</h4></legend>
+   <label for="email" required>Email</label>
+   <input type="email" id="email" name="email" />
+   <br />
+   <label for="number">Number</label>
+    <input type="text" id="number" name="number" />
+  </fieldset>
+    <br />
+  <fieldset>
+    <legend><h4>Reason for Contacting</h4></legend>
+    <label for="interests">How should we collab?</label>
+    <br />
+    <input type="checkbox" name="interests" value="website_development" />Website Development
+    <br />
+    <input type="checkbox" name="interests" value="photography" />Photography
+    <br />
+    <input type="checkbox" name="interests" value="graphic_design" />Graphic Design
+    <br />
+    <input type="checkbox" name="interests" value="others" />Other 
+    <input type="text" id="other" name="other">
+  </fieldset>
+  <br />
+  <fieldset>  
+    <legend><h4>Source</h4></legend>
+    <label for="source">How did you find me?</label>
+    <br />
+    <input type="radio" name="source" value="google" />Google
+    <br />
+    <input type="radio" name="source" value="friend" />Friend
+    <br />
+    <input type="radio" name="source" value="yelp" />Yelp
+    <br />
+    <input type="radio" name="source" value="social_media" />Social Media 
+</fieldset>  
+  <br />
+<fieldset>
+  <legend><h4>What's your favorite candy?</h4></legend>
+  <select name="candy">
+    <option value="snickers">Snickers</option>
+    <option value="twix">Twix</option>
+    <option value="skittles">Skittles</option>
+    <option value="swedish_fish">Swedish Fish</option>
+    <option value="dark_chocolate">Dark Chocolate</option>
+    <option value="other">Other</option>
+  </select>
+</fieldset>
+<br />
+<fieldset>
+  <legend><h4>What city are you from?</h4></legend>
+  <input list="city">
+  <datalist id="city">
+    <option value="Salt Lake City">
+    <option value="Sandy">
+    <option value="Provo">
+    <option value="Ogden">
+    <option value="Park City">
+    <option value="West Valley">  
+  </datalist>
+</fieldset>
+
+<br />
+<fieldset>
+  <legend><h4>Tell me more.</h4></legend>
+  <textarea name="comment" rows="5" cols="50">Share any additional information. 
+  </textarea>
+</fieldset>
+  <button type="submit">Submit</button>
+</form>
+</div>
+</div>
+</body>
+</html>
